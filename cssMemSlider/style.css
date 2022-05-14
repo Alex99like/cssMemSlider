@@ -24,7 +24,7 @@ body {
 .container {
     position: relative;
     width: 400%;
-    height: 80vh;
+    height: 82vh;
     display: flex;
     align-items: flex-start;
 }
@@ -69,12 +69,12 @@ img {
 }
 
 .slide .text {
-    font-size: 1em;
+    font-size: 1.4em;
     text-shadow: 0 0 0.3em rgba(164, 164, 164, 0.2);
     max-width: 30vw;
-    margin-top: 1.8em;
+    margin-top: 1.4em;
     color: #fff;
-    transition: 1.5s;
+    transition: 3s;
     margin-left: 1vw;
     opacity: 0;
     display: flex;
@@ -189,13 +189,13 @@ input {
     margin-left: -75%;
 }
 
-@media (max-height: 740px) {
+/* @media (max-height: 720px) {
     .slide .text {
         transition: 3s;
         font-size: 1.4em;
         margin-top: 0.8em;
     }
-}
+} */
 
 @media (max-width: 940px) {
     .slide .text {
@@ -206,6 +206,10 @@ input {
     .bar {
         width: 3em;
     }
+}
+
+@media (max-width: 1200px) {
+
 }
 
 
@@ -310,21 +314,17 @@ input {
 
     .overflow {
         margin: 5vh auto 5vh;
-    }
+    }*/
 
     .slide .text {
         width: 55vw;
-        margin-left: 1em !important;
-        margin: 0 auto;
-        text-align: start;
-        margin-top: 3em;
+    } 
+
+    /* #slide4:checked ~ .slide .text1{
+        width: 65vw;
     } */
 
-    #slide4:checked ~ .slide .text1{
-        width: 65vw;
-    }
-
-    #slide4:checked ~ .slide .text4{
+    /* #slide4:checked ~ .slide .text4{
         width: 40vw;
-    }
+    } */
 }
